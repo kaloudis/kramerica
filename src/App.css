@@ -1,0 +1,47 @@
+.App {
+    text-align: center;
+}
+
+.App-logo {
+    animation: App-logo-spin infinite 20s linear;
+    height: 80px;
+}
+
+.App-header {
+    background-color: #222;
+    height: 80px;
+    padding: 20px;
+    color: white;
+}
+
+.App-intro {
+    font-size: large;
+}
+
+.navigation {
+    line-height: 20px;
+    align-self: center;
+    text-align: center;
+    width: 500px;
+    height: 20px;
+    padding-bottom: 25px;
+}
+
+.navigation-item {
+    padding-left: 15px;
+    line-height: 15px;
+    height: 10px;
+    width: 150px;
+    display: block;
+    text-align: center;
+    color: white;
+    float: left;
+}
+
+a {
+    color: blue;
+}
+
+a.active {
+    color: red;
+}
