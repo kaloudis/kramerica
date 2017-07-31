@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import './App.css';
 import JobsNavigation from './JobsNavigation.js';
-import Intern from './Intern';
-import Scientist from './Scientist';
-import Engineer from './Engineer';
+import Intern from './jobs/Intern';
+import Scientist from './jobs/Scientist';
+import Engineer from './jobs/Engineer';
 import { Route, Switch, Redirect } from 'react-router-dom';
 
 class Jobs extends Component {
